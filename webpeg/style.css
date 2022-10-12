@@ -1,0 +1,271 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	
+}
+header{
+	background-image:url(zaton-catering-001.jpg);
+	background-position:center;
+	height:100vh;
+	background-position:center;
+	background-size:cover;
+	
+}
+ul{
+	list-style-type:none;
+	float:right;
+	margin-top:25px;
+	font-size:30px;
+}
+ul li {
+	display:inline-block;
+}
+ul li a{
+	
+	text-decoration:none;
+	color:#aaa;
+	border:1px solid transparent;
+	padding:5px 20px;
+	transition:0.6s ease;
+	size:20px;
+}
+
+ul li a:hover{
+	
+	background-color:green;
+	color:#000;
+}
+
+
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+}
+.main{
+	max-width:1200px;
+	margin:auto;
+	
+}
+
+ul li.active a{
+	background-color:#fff;
+color:red;
+
+}
+
+.book{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,50%);
+	
+}
+.book h1{
+	
+	font-size:75px;
+	color:#fff;
+}
+.button{
+	
+	position:absolute;
+	top:80%;
+	left:50%;
+	transform:translate(-50%,50%);
+
+}
+.btn{
+	border:1px solid #fff;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 30px; 
+	
+} 
+.btn:hover{
+	background-color:#fff;
+	color:#333;
+	
+}
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+}
+.header {
+  background-color:green;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #444;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+}
+.topnav a:hover {
+  background-color: green;
+  color: red;
+}
+.book3{
+	max-width:2000px;
+	overflow:auto;
+	margin:auto;
+	background-color:#2f2f2f;	
+}
+
+.book4{
+	list-style-type:none;
+	float:center;
+	margin-top:25px;
+	font-size:30px;
+	
+}
+.book4{
+	background-color:green;
+	margin:auto;
+	overflow:auto;
+	
+}
+.book4 a{
+	text-decoration:none;
+	color:#aaa;
+	border:1px solid transparent;
+	padding:5px 20px;
+	transition:1.6s ease;
+	size:20px;
+	display:inline-block;
+}
+
+.dock1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #4444;
+}
+
+.dock1{
+	float:right;
+	text
+	
+}
+
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+.allbook{ 
+
+margin:30PX;
+padding:40PX;
+background-color:#ddd;
+
+}
+
+.container1{
+	width:920px;
+	margin:50px auto;
+	
+}
+
+	
+.box1,.box2,.box3{
+	height:50px;
+	width:800px;
+	background-color:gray;
+	position:relative;
+	z-index:1;
+    margin-top:20px;}
+
+.div1,.div2,.div3{
+	height:50px;
+     background-color:teal;
+	 position:absolute;
+	 z-index:2;
+	 text-align:center;
+	 line-height:70px;
+	 font-weight:bold;
+	 color:#fff;
+	
+}
+
+.div1{
+	top:2253px;
+	width:780px
+
+	
+}
+
+.div2{
+	top:2343px;
+	width:690px;
+	
+}
+.div3{
+	top:2433px;
+	width:580px;
+	
+}
+
+.boxc{
+	
+	font-weight:bold;
+	color:black;
+	
+}
+
+.bookall{
+	margin:40PX;
+padding:50PX;
+background-color:#333;
+
+	
+}
+
+.container1{
+	
+	color:red;
+	
+}
+
+.container2{
+	
+	color:white;
+	
+}
+
+.container3{
+	
+	color:green;
+	
+}
+a{
+	text-decoration:none;
+	
+}
+
+a:focus, a:hover {
+	color: #23527c;
+	text-decoration: none;
+}
